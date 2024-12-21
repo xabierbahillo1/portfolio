@@ -4,10 +4,8 @@ body {
   color: #1a202c; /* text-black */
 }
 
-@media (prefers-color-scheme: dark) {
-  /* Estilos para el modo oscuro */
-  body {
-    background-color: #1a202c; /* bg-gray-900 */
-    color: #e2e8f0; /* text-white */
-  }
+/* Estilos para el modo oscuro usando la clase .dark en el html */
+html.dark body {
+  background-color: rgb(17, 24, 39); /* bg-gray-900 */
+  color: #e2e8f0; /* text-white */
 }

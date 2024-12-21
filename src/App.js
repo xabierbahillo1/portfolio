@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="px-4 bg-gray-50 text-black dark:bg-gray-900 dark:text-white min-h-screen font-sans">
+      <div className="px-4 min-h-screen font-sans">
         <Content />
         <Footer/>
       </div>

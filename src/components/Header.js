@@ -52,7 +52,7 @@ const Header = () => {
   
     const handleScroll = () => {
       let activeSectionId = null;
-      const visibleThreshold = 0.5;
+      const visibleThreshold = 0.3;
   
       // Verificar si estamos cerca del final de la página
       const isAtBottom =
@@ -70,7 +70,7 @@ const Header = () => {
           const sectionHeight = rect.height;
           const visibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
   
-          // Considerar la sección activa si más del 50% de la sección es visible
+          // Considerar la sección activa si más del % definido de la sección es visible
           if (visibleHeight / sectionHeight > visibleThreshold) {
             activeSectionId = section.id;
           }
