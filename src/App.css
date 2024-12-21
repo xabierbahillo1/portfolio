@@ -1,0 +1,13 @@
+/* Estilos para el modo claro */
+body {
+  background-color: #f7fafc; /* bg-gray-50 */
+  color: #1a202c; /* text-black */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Estilos para el modo oscuro */
+  body {
+    background-color: #1a202c; /* bg-gray-900 */
+    color: #e2e8f0; /* text-white */
+  }
+}
