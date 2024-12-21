@@ -20,7 +20,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="ml-4 text-sm text-gray-600 dark:text-gray-200"
+      className="ml-2 text-sm text-gray-600 dark:text-gray-200"
     >
       {darkMode ? '🌙' : '☀️'}
     </button>
