@@ -35,7 +35,7 @@ const list = [
     title: "BGX - Gestión de Servidores",
     description:
       "Aplicación web para gestión de servidores, creada con Next.js, ExpressJS y Python. El cliente Python envía datos del servidor a través de una API desarrollada con ExpressJS, y la aplicación Next.js se conecta a esta API para mostrar los datos visualmente en tiempo real.",
-    link: "https://bgx.vercel.app/",
+    link: "https://bgx.xabierbahillo.dev/",
     image: "bgx.webp",
     tags: [herramientas.NEXT, herramientas.EXPRESS, herramientas.PYTHON],
   },
@@ -44,7 +44,7 @@ const list = [
     description:
       "Proyecto desarrollado en React que muestra una lista de personajes del juego Dragon Ball Sparking! ZERO. Los usuarios pueden ver las transformaciones de los personajes al hacer clic en sus tarjetas y buscar personajes por nombre.",
     github: "https://github.com/xabierbahillo1/dbszcharacters",
-    link: "https://dbszcharacters.vercel.app/",
+    link: "https://dbszcharacters.xabierbahillo.dev/",
     image: "dbzscharacters.webp",
     tags: [herramientas.REACT, herramientas.MATERIAL_UI],
   },
