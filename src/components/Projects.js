@@ -1,6 +1,6 @@
 import React from "react";
 import LinkButton from './LinkButton';
-import { CodeBracketIcon, PlayIcon } from '@heroicons/react/24/outline'
+import { CodeBracketIcon, PlayIcon, BookOpenIcon } from '@heroicons/react/24/outline'
 
 const herramientas = {
   NEXT: {
@@ -34,11 +34,12 @@ const list = [
   {
     title: "BGX - Gestión de Servidores",
     description:
-      "Aplicación web para gestión de servidores, creada con Next.js, ExpressJS y Python. El cliente Python envía datos del servidor a través de una API desarrollada con ExpressJS, y la aplicación Next.js se conecta a esta API para mostrar los datos visualmente en tiempo real.",
+      "Aplicación web diseñada para la gestión y monitorización en tiempo real de servidores. El cliente Python recopila las métricas del servidor y las envía a una API REST construida con Express.js, que procesa y centraliza la información para su visualización en un frontend creado con Next.js.",
     link: "https://bgx.xabierbahillo.dev/",
+    backend: "https://bgx-backend.xabierbahillo.dev/docs/",
     image: "bgx.webp",
     tags: [herramientas.NEXT, herramientas.EXPRESS, herramientas.PYTHON],
-  },
+  },  
   {
     title: "Dragon Ball: Sparking! ZERO Characters",
     description:
@@ -61,7 +62,7 @@ const list = [
 const Projects = () => {
   return (
     <div className="flex flex-col gap-y-16">
-      {list.map(({ image, title, description, tags, link, github }) => (
+      {list.map(({ image, title, description, tags, link, backend, github }) => (
         <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0" key={title}>
           <div className="w-full md:w-1/2">
             <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
@@ -103,6 +104,12 @@ const Projects = () => {
                 <LinkButton href={link}>
                   <PlayIcon className="h-5 w-5" />
                   Demo
+                </LinkButton>
+              )}
+              {backend && (
+                <LinkButton href={backend}>
+                  <BookOpenIcon className="h-5 w-5" />
+                  API Docs
                 </LinkButton>
               )}
             </footer>
