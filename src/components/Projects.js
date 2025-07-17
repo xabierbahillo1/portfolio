@@ -27,6 +27,18 @@ const herramientas = {
     name: "Android",
     class: "bg-[#3DDC84] text-white",
   },
+  SPRING_BOOT: {
+    name: "Spring Boot",
+    class: "bg-[#6DB33F] text-white",
+  },
+  JAVA: {
+    name: "Java",
+    class: "bg-[#007396] text-white",
+  },
+  MAVEN: {
+    name: "Maven",
+    class: "bg-[#C71A36] text-white",
+  }
 };
 
 
@@ -39,8 +51,8 @@ const list = [
     backend: "https://bgx-backend.xabierbahillo.dev/docs/",
     image: "bgx.webp",
     tags: [herramientas.NEXT, herramientas.EXPRESS, herramientas.PYTHON],
-  },  
-  {
+  },
+  /*{
     title: "Dragon Ball: Sparking! ZERO Characters",
     description:
       "Proyecto desarrollado en React que muestra una lista de personajes del juego Dragon Ball Sparking! ZERO. Los usuarios pueden ver las transformaciones de los personajes al hacer clic en sus tarjetas y buscar personajes por nombre.",
@@ -48,6 +60,15 @@ const list = [
     link: "https://dbszcharacters.xabierbahillo.dev/",
     image: "dbzscharacters.webp",
     tags: [herramientas.REACT, herramientas.MATERIAL_UI],
+  },*/
+  {
+    title: "ODB Redo Analyzer",
+    description:
+      "Aplicación web desarrollada con Spring Boot para monitorizar los redo logs generados por sesiones en bases de datos Oracle. Permite configurar, visualizar datos en tiempo real, filtrar información relevante y exportar los datos en formato CSV desde una interfaz web",
+    github: "https://github.com/xabierbahillo1/odb-redo-analyzer",
+    link: "https://demo-odbr.xabierbahillo.dev/",
+    image: "odbr.webp",
+    tags: [herramientas.SPRING_BOOT, herramientas.JAVA, herramientas.MAVEN],
   },
   {
     title: "Preguntados - Juego de Trivia",
