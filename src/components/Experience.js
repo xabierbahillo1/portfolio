@@ -1,4 +1,3 @@
-import React from 'react';
 import ExperienceElement from './ExperienceElement';
 
 const List = [
@@ -7,12 +6,12 @@ const List = [
     title: "Ingeniero de Software",
     company: "InLOG",
     description: 
-    "Desarrollo, soporte y mantenimiento de una aplicación de gestión de almacenes para multiples clientes",
+      "Responsable técnico en desarrollo, soporte y mantenimiento de una aplicación de gestión de almacenes para múltiples clientes.",
     skills: [
       "Desarrollo de la aplicación web utilizando el framework Struts.",
       "Implementación de APIs SOAP y REST con Java para la integración de servicios.",
       "Desarrollo PL/SQL con base de datos Oracle.",
-      "Gestión y despliegue de aplicaciones en la nube (OCI)",
+      "Gestión y despliegue de aplicaciones en la nube (OCI).",
     ]
   }
 ];

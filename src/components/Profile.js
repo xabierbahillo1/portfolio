@@ -10,7 +10,7 @@ const Profile = () => {
             Xabier Bahillo
           </h1>
           <p className="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
-            +4 años de experiencia. <strong>Ingeniero de Software </strong> de Bilbao, España. Especializado en el desarrollo de aplicaciones web.
+            +5 años de experiencia. <strong>Ingeniero de Software </strong> de Bilbao, España. Especializado en el desarrollo de aplicaciones web.
           </p>
         </div>
         <img

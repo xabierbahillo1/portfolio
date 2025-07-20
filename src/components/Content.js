@@ -25,7 +25,7 @@ const Content = () => {
       <SectionContainer id="proyectos" className="py-8 md:py-16">
         <SectionTitle>
           <CommandLineIcon className="w-8 h-8" />
-          Proyectos
+          Proyectos personales
         </SectionTitle>
         <Projects />
       </SectionContainer>
