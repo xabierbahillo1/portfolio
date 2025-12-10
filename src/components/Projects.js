@@ -59,7 +59,7 @@ const list = [
   {
     title: "Curso Programación Básica",
     description:
-      "Plataforma educativa interactiva que ofrece un curso completo de programación básica. Combina teoría, tests y ejercicios prácticos con editor de código integrado y evaluación. Ofrece autenticación con Google y sistema de pagos con Stripe.",
+      "Plataforma educativa interactiva que ofrece un curso completo de programación básica. Combina teoría, tests y ejercicios prácticos con editor de código integrado y evaluación automática. Ofrece autenticación con Google y sistema de pagos con Stripe.",
     github: "https://github.com/xabierbahillo1/cursopb-online",
     link: "https://cursopb.xabierbahillo.dev/",
     image: "cursopb.webp",
