@@ -38,6 +38,10 @@ const herramientas = {
   MAVEN: {
     name: "Maven",
     class: "bg-[#C71A36] text-white",
+  },
+  FIREBASE: {
+    name: "Firebase",
+    class: "bg-[#FFCA28] text-black",
   }
 };
 
@@ -51,6 +55,15 @@ const list = [
     backend: "https://bgx-backend.xabierbahillo.dev/docs/",
     image: "bgx.webp",
     tags: [herramientas.NEXT, herramientas.EXPRESS, herramientas.PYTHON],
+  },
+  {
+    title: "Curso Programación Básica",
+    description:
+      "Plataforma educativa interactiva que ofrece un curso completo de programación básica. Combina teoría, tests y ejercicios prácticos con editor de código integrado y evaluación. Ofrece autenticación con Google y sistema de pagos con Stripe.",
+    github: "https://github.com/xabierbahillo1/cursopb-online",
+    link: "https://cursopb.xabierbahillo.dev/",
+    image: "cursopb.webp",
+    tags: [herramientas.REACT, herramientas.FIREBASE],
   },
   /*{
     title: "Dragon Ball: Sparking! ZERO Characters",
