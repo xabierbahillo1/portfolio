@@ -4,15 +4,16 @@
     box-shadow: none;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
-  
-  /* Estilos cuando se hace scroll */
+
   .nav-animation.scrolled {
-    background-color: rgba(255, 255, 255, 1); /* Fondo blanco sólido en modo claro */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave en modo claro */
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.1);
   }
-  
+
   .dark .nav-animation.scrolled {
-    background-color: rgba(31, 41, 55, 1);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(17, 24, 39, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
-  
