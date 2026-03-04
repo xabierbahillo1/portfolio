@@ -1,9 +1,17 @@
 const LinkButton = ({ href, children }) => {
+  const handleClick = (e) => {
+    const buttonText = e.currentTarget.innerText.trim();
+    window.gtag('event', 'click_LinkButton', {
+      botonPulsado: `${buttonText} - ${href}`,
+    });
+  };
+
   return (
     <a
       target="_blank"
       rel="noopener noreferrer"
       href={href}
+      onClick={handleClick}
       className="inline-flex bg-gray-100 text-gray-800 border-gray-300 items-center justify-center gap-2 px-3 py-2 space-x-2 text-base transition-all duration-300 dark:text-white dark:bg-gray-800 border dark:border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black hover:scale-105 hover:shadow-lg"
     >
       {children}
