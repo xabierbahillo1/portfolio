@@ -53,7 +53,7 @@ const list = [
       "Aplicación web diseñada para la gestión y monitorización en tiempo real de servidores. El cliente Python recopila las métricas del servidor y las envía a una API REST construida con Express.js, que procesa y centraliza la información para su visualización en un frontend creado con Next.js.",
     link: "https://bgx.xabierbahillo.dev/",
     backend: "https://bgx-backend.xabierbahillo.dev/docs/",
-    image: "bgx.webp",
+    image: "bgx2.webp",
     tags: [herramientas.NEXT, herramientas.EXPRESS, herramientas.PYTHON],
   },
   {
